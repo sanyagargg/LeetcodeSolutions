@@ -1,4 +1,4 @@
-# Count Good Numbers
+# LC 1922: Count Good Numbers
 
 ## Problem Statement
 

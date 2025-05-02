@@ -1,4 +1,4 @@
-# Max Tasks Assignment with Magical Pills
+# LC 2071: Max Number of Tasks You Can Assign
 
 ## Problem Statement
 
