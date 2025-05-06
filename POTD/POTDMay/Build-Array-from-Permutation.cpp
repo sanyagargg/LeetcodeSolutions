@@ -2,13 +2,17 @@ class Solution {
 public:
     vector<int> buildArray(vector<int>& nums) {
         int n = nums.size();
-        vector<int> ans(n);
+        // Encode new value at each index using modular arithmetic
         for (int i = 0; i < n; ++i) {
-            ans[i] = nums[nums[i]];
+            nums[i] = nums[i] + n * (nums[nums[i]] % n);
         }
-        return ans;
+        // Extract new values
+        for (int i = 0; i < n; ++i) {
+            nums[i] = nums[i] / n;
+        }
+        return nums;
     }
 };
 
 // Time Complexity: O(n)
-// Space Complexity: O(n)
+// Space Complexity: O(1)
