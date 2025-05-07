@@ -14,8 +14,6 @@ You are given an `n x m` grid of rooms representing a dungeon. Each room `(i, j)
 ## Examples
 
 **Example 1:**
-
-```text
 Input: moveTime = [[0, 4],
                    [4, 4]]
 Output: 6
@@ -26,7 +24,6 @@ Explanation:
 - At t = 5, move to (1,1) → arrive at t = 6.
 
 **Example 2:**
-```text
 Input: moveTime = [[0, 0, 0],
                    [0, 0, 0]]
 Output: 3
@@ -34,7 +31,6 @@ Explanation:
 - No waiting is needed; just 3 moves down/right, each taking 1 second.
 
 **Example 3:**
-```text
 Input: moveTime = [[0, 1],
                    [1, 2]]
 Output: 3
